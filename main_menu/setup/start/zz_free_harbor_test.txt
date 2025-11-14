@@ -2,12 +2,13 @@ countries = {
     countries = {
         FHL = {
             own_control_core = {
-                ichirouganaim
+                abacoa
+                eleuthera
             }
             
             include = "catholic_monarchy"
             
-            capital = ichirouganaim
+            capital = abacoa
             country_rank = rank_duchy
         }
 
