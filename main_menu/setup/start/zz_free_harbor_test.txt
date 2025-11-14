@@ -4,6 +4,8 @@ countries = {
             own_control_core = {
                 abacoa
                 eleuthera
+                bahama
+                lucayoneque
             }
             
             include = "catholic_monarchy"
