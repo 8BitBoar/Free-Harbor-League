@@ -1,5 +1,5 @@
 starting_technology_level = 3
-goverment = {
+government = {
     ruler = random
     
     type = republic
@@ -74,4 +74,18 @@ goverment = {
         immigration_law = open_borders_law
 
     }
+}
+
+laws = {
+    piracy_law = state_piracy_policy
+    c = council_of_captains
+    legal_code_law = articles_of_agreement
+    maritime_law = smugglers_haven
+    army_doctrine_law = authority_of_the_captain
+    battle_leadership_law = loyal_pirate_crews
+    naval_doctrine_law = ship_boarding
+    recruitment_law = benefits_for_privateers
+    bureaucracy_law = port_logs
+    immigration_law = open_borders_law
+
 }

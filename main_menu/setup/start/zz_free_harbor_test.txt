@@ -12,9 +12,7 @@ countries = {
                 gold = 10000
                 prestige = 50
             }
-
-            include = "catholic_monarchy"
-
+            
             # condense exploration stuff
             # include upper tip of South America, maybe pan handle of Florida
             include = "expl_mesoamerica"
