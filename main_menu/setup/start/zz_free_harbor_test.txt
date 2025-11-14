@@ -1,0 +1,16 @@
+countries = {
+    countries = {
+        FHL = {
+            own_control_core = {
+                ichirouganaim
+            }
+            
+            include = "catholic_monarchy"
+            
+            capital = ichirouganaim
+            country_rank = rank_duchy
+        }
+
+    }
+}
+
