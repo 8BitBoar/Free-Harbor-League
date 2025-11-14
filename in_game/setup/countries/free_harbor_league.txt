@@ -1,0 +1,15 @@
+FHL = {
+
+	color = rgb { 219 180 44 }
+	color2 = rgb { 10 45 70 }
+	
+	male_regnal_names = {}
+	female_regnal_names = {}
+	
+    culture_definition = irish
+    religion_definition = catholic
+    	
+	description_category = military 
+	difficulty = 2
+
+}

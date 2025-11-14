@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Free Harbor League",
+	"id":	"eightbitboar.freeharborleague",
+	"version":	"0.01",
+	"supported_game_version":	"",
+	"short_description":	"Pirate flavor stuff.",
+	"tags":	["Alternative history", "Characters", "Culture & Art", "Events", "Map", "Religion"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
