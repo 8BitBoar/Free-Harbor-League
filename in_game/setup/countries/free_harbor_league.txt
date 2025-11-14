@@ -2,7 +2,12 @@ FHL = {
 
 	color = rgb { 219 180 44 }
 	color2 = rgb { 10 45 70 }
-	
+
+	# Unit colors - used for units on the map
+	# unit_color0 = rgb {	175 40 40 }
+	# unit_color1 = rgb {	76 78 114 }
+	# unit_color2 = rgb {	18 90 47 }
+
 	male_regnal_names = {}
 	female_regnal_names = {}
 	
@@ -12,4 +17,5 @@ FHL = {
 	description_category = military 
 	difficulty = 2
 
+	type = settled
 }
