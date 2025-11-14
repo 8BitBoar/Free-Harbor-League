@@ -7,8 +7,12 @@ countries = {
                 bahama
                 lucayoneque
             }
-            
+
             include = "catholic_monarchy"
+            
+            discovered_regions = {
+                caribbean_region
+            }
             
             capital = abacoa
             country_rank = rank_duchy
