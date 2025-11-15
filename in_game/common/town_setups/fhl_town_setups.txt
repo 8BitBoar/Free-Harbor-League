@@ -1,5 +1,5 @@
 fhl_pirate_republic_capital = {
-    granary = 2
+    granary = 1
     brewery = 2
     naval_supplies_guild = 1
     pirate_stronghold = 1
@@ -22,5 +22,4 @@ fhl_pirate_republic_capital = {
     # dyes_guild = 1
     # marketplace = 5
     # jewelry_guild = 1
-    # wharf = 1
 }
