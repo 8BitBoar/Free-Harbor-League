@@ -6,7 +6,7 @@ countries = {
                 eleuthera
                 bahama
                 lucayoneque
-
+                sagua
                 baracoa
                 guantanamo
                 
@@ -17,6 +17,13 @@ countries = {
                 guaygata
                 aguacadiba
                 oristan
+                
+                #Columbia
+                necocli
+                zenues
+                mayaba
+
+                guacayakima
             }
 
             currency_data = {
