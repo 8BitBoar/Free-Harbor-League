@@ -17,11 +17,6 @@ countries = {
                 guaygata
                 aguacadiba
                 oristan
-                
-                #Columbia
-                necocli
-                zenues
-                mayaba
 
                 guacayakima
             }
