@@ -1,5 +1,5 @@
-locations = {
-    guantanamo = {
+﻿locations = {
+    habana = {
         rank = city
         
         town_setup = fhl_pirate_republic_capital
