@@ -4,7 +4,7 @@ fhl_pirate_republic_capital = {
     naval_supplies_guild = 1
     pirate_stronghold = 1
     pirate_tavern = 1
-    
+    # wharf = 1
     # custom
     
     # temple = 1
