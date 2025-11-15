@@ -6,6 +6,16 @@ countries = {
                 eleuthera
                 bahama
                 lucayoneque
+
+                baracoa
+                
+                # Jamaica
+                maynoa
+                anaya
+                yaguabo
+                guaygata
+                aguacadiba
+                oristan
             }
 
             currency_data = {
