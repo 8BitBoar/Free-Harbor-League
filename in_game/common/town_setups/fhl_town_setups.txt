@@ -7,6 +7,7 @@ fhl_pirate_republic_capital = {
     wharf = 1
     mason = 1
     tools_guild = 1
+    admiralty_of_the_captains = 1
     
     # custom
     # temple = 1
