@@ -1,0 +1,21 @@
+locations = {
+    baracoa = {
+        rank = city
+        
+        town_setup = fhl_pirate_republic_capital
+
+        # age 1
+        feudalism = yes
+        # age 2
+        banking = yes
+        professional_armies = yes
+        # age 3
+        
+        define_pop = {
+            culture = irish 	# culture of the pop
+            religion = catholic 	# religion of the pop
+            type = nobles 		# pop type of the pop
+            size = 1		# amount of people in thousands (0.001 = 1 person)
+        }
+    }
+}

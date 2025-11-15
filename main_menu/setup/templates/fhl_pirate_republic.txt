@@ -78,7 +78,7 @@ government = {
 
 laws = {
     piracy_law = state_piracy_policy
-    c = council_of_captains
+    cabinet_law = council_of_captains
     legal_code_law = articles_of_agreement
     maritime_law = smugglers_haven
     army_doctrine_law = authority_of_the_captain

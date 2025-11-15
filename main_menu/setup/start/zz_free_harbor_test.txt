@@ -21,6 +21,7 @@ countries = {
             currency_data = {
                 gold = 10000
                 prestige = 50
+                sailors = 500
             }
             
             # condense exploration stuff
@@ -32,8 +33,12 @@ countries = {
             discovered_regions = {
                 caribbean_region
             }
+
+            tolerated_cultures = {
+                # polabian
+            }
             
-            capital = abacoa
+            capital = baracoa
             country_rank = rank_duchy
         }
 
