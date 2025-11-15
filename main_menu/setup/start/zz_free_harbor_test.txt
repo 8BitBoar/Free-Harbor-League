@@ -8,6 +8,7 @@ countries = {
                 lucayoneque
 
                 baracoa
+                guantanamo
                 
                 # Jamaica
                 maynoa
@@ -38,7 +39,7 @@ countries = {
                 # polabian
             }
             
-            capital = baracoa
+            capital = guantanamo
             country_rank = rank_duchy
         }
 
