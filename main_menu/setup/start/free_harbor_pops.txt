@@ -1,5 +1,5 @@
 locations = {
-    guantanamo = {
+    habana = {
         define_pop = {	type = nobles	size = 0.031	culture = irish	religion = catholic }
         define_pop = {	type = clergy	size = 0.096	culture = irish	religion = catholic }
         define_pop = {	type = burghers	size = 2.740	culture = irish	religion = catholic }
