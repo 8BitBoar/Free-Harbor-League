@@ -1,0 +1,54 @@
+high_prize_court = {
+    is_foreign = no
+    stronger_power_projection = no
+    max_levels = 1
+    need_good_relation = no
+    pop_type = nobles
+
+    category = cultural_category
+    employment_size = pirate_building_employment
+
+    AI_ignore_available_worker_flag = no
+
+    rural_settlement = no
+    town = no
+    city = yes
+
+    graphical_tags = { medium_religious }
+
+    country_potential = {
+        has_reform = government_reform:pirate_brethren_reform
+        tag = FHL
+    }
+
+    build_time = pirate_build_time
+
+    allow = {
+        is_core_of = owner
+    }
+
+    modifier = {
+        local_cultural_influence = 1
+        local_max_literacy = 20
+        local_monthly_literacy = 0.4
+        local_institution_growth_modifier = 0.5
+        local_sailors = 0.05
+        local_pop_join_rebel_threshold = -0.5
+        local_migration_attraction = 0.25
+        local_pop_promotion_speed = 0.35
+    }
+
+    unique_production_methods = {
+        admiralty_of_the_captains_maintenance = {
+            paper = 0.5
+            books = 0.25
+            liquor = 0.1
+            beeswax = 0.05
+
+            category = building_maintenance
+        }
+    }
+
+    construction_demand = university_construction
+}
+
