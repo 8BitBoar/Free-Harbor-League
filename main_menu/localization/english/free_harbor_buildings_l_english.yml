@@ -1,7 +1,11 @@
 l_english:
   admiralty_of_the_captains: "Admiralty Of The Captains"
   admiralty_of_the_captains_maintenance: "Admiralty Maintenance"
-  fhl_pirate_pens_tanners_maintenance: "War-Beast Pens & Tanners Maintenance"
-  fhl_pirate_pens_tanners: "War-Beast Pens & Tanners"
+  fhl_pirate_pens_tamers: "Liberated Beast Pens & Tamers"
+  fhl_pirate_pens_tamers_horse_maintenance: "Liberated Horse Pens & Tamers"
+  fhl_pirate_pens_tamers_elephants_maintenance: "Liberated Horse Pens & Tamers"
+  fhl_pirate_pens_tamers_fur_maintenance: "Liberated Fur Harvesting Guild"
+  fhl_pirate_pens_tamers_ivory_maintenance: "Liberated Ivory Harvesting Guild"
+  fhl_pirate_pens_tamers_livestock_maintenance: "Liberated Livestock Pens & Tamers"
   fhl_high_prize_court: "High Prize Court"
   fhl_high_prize_court_maintenance: "High Prize Court Maintenance"

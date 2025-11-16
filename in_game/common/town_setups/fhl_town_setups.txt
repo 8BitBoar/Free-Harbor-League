@@ -19,4 +19,6 @@ fhl_pirate_republic_capital = {
     fine_cloth_guild = 1
     weapon_guild = 1
     glass_guild = 1
+    fhl_pirate_pens_tamers = 1
+    fhl_high_prize_court = 1
 }
