@@ -36,12 +36,23 @@ high_prize_court = {
         local_unrest = -0.2
     }
 
+    capital_country_modifier = {
+        global_distance_from_capital_cost_modifier = -0.20
+        global_crown_estate_power = 0.15
+        peasants_estate_target_satisfaction = large_permanent_target_satisfaction
+        nobles_estate_target_satisfaction = large_permanent_target_satisfaction
+    }
+
+    capital_modifier = {
+        local_monthly_development_modifier = 0.1
+    }
+
     unique_production_methods = {
-        admiralty_of_the_captains_maintenance = {
+        fhl_high_prize_court_maintenance = {
             paper = 0.5
             books = 0.25
             liquor = 0.1
-            beeswax = 0.05
+            goods_gold = 0.1
 
             category = building_maintenance
         }
