@@ -1,0 +1,24 @@
+fhl_pirate_republic_capital = {
+    granary = 1
+    distillers_guild = 2
+    naval_supplies_guild = 1
+    pirate_stronghold = 1
+    pirate_tavern = 1
+    wharf = 1
+    mason = 1
+    tools_guild = 1
+    admiralty_of_the_captains = 1
+    
+    # custom
+    # temple = 1
+    # fine_cloth_guild = 1
+    # weapon_guild = 1
+    # paper_guild = 2
+    # cloth_guild = 3
+    # glass_guild = 3
+    # castle = 1
+    # pottery_guild = 2
+    # dyes_guild = 1
+    # marketplace = 5
+    # jewelry_guild = 1
+}

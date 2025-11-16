@@ -1,0 +1,15 @@
+locations = {
+    habana = {
+        rank = city
+        
+        town_setup = fhl_pirate_republic_capital
+
+        # age 1
+        feudalism = yes
+        legalism = yes
+        # age 2
+        banking = yes
+        professional_armies = yes
+        # age 3
+    }
+}
