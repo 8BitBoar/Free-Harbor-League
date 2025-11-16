@@ -1,12 +1,12 @@
 wreckers_yard = {
     is_foreign = no
     stronger_power_projection = no
-    max_levels = 1
+    max_levels = workshop_max_level
     need_good_relation = no
     pop_type = peasants
 
     category = consumer_goods_category
-    employment_size = pirate_building_employment
+    employment_size = 0.1
 
     AI_ignore_available_worker_flag = no
 
@@ -31,7 +31,7 @@ wreckers_yard = {
 
     unique_production_methods = {
         wreckers_yard_naval_supplies = {
-            tools    = 0.01
+            tools    = 0.10
             
             produced = naval_supplies
             output   = 0.50
@@ -40,11 +40,20 @@ wreckers_yard = {
         }
 
         wreckers_yard_lumber = {
-            tools = 0.03
+            tools = 0.10
 
             produced = lumber
             output = 1
             
+            category = workshop_input
+        }
+
+        wreckers_yard_iron = {
+            tools = 0.10
+
+            produced = iron
+            output = 1
+
             category = workshop_input
         }
     }
@@ -52,3 +61,224 @@ wreckers_yard = {
     construction_demand = workshop_construction
 }
 
+salvage_docks = {
+    is_foreign = no
+    stronger_power_projection = no
+    max_levels = workshop_max_level
+    need_good_relation = no
+    pop_type = peasants
+
+    category = consumer_goods_category
+    employment_size = 0.2
+
+    AI_ignore_available_worker_flag = no
+
+    rural_settlement = yes
+    town = yes
+    city = yes
+
+    country_potential = {
+        has_reform = government_reform:pirate_brethren_reform
+        tag = FHL
+    }
+
+    location_potential = {
+        is_coastal = yes
+    }
+
+    obsolete = wreckers_yard
+
+    build_time = pirate_build_time
+
+    allow = {
+        is_core_of = owner
+    }
+
+    unique_production_methods = {
+        salvage_docks_naval_supplies = {
+            tools    = 0.03
+
+            produced = naval_supplies
+            output   = 0.50
+
+            category = workshop_input
+        }
+
+        salvage_docks_lumber = {
+            tools = 0.05
+
+            produced = lumber
+            output = 1
+
+            category = workshop_input
+        }
+
+        salvage_docks_iron = {
+            tools = 0.03
+
+            produced = iron
+            output = 1
+
+            category = workshop_input
+        }        
+        
+        salvage_docks_gold = {
+            tools = 0.01
+
+            produced = goods_gold
+            output = 1
+
+            category = workshop_input
+        }
+
+        salvage_docks_gems = {
+            tools = 0.02
+
+            produced = gems
+            output = 1
+
+            category = workshop_input
+        }
+
+        salvage_docks_jewelry = {
+            tools = 0.01
+            liquor = 0.01
+
+            produced = jewelry
+            output = 1
+
+            category = workshop_input
+        }
+    }
+
+    construction_demand = workshop_construction
+}
+
+
+deepwater_salvageworks = {
+    is_foreign = no
+    stronger_power_projection = no
+    max_levels = workshop_max_level
+    need_good_relation = no
+    pop_type = peasants
+
+    category = consumer_goods_category
+    employment_size = 0.2
+
+    AI_ignore_available_worker_flag = no
+
+    rural_settlement = yes
+    town = yes
+    city = yes
+
+    country_potential = {
+        has_reform = government_reform:pirate_brethren_reform
+        tag = FHL
+    }
+
+    location_potential = {
+        is_coastal = yes
+    }
+
+    obsolete = salvage_docks
+
+    build_time = pirate_build_time
+
+    allow = {
+        is_core_of = owner
+    }
+
+    unique_production_methods = {
+        deepwater_salvageworks_naval_supplies = {
+            tools    = 0.03
+
+            produced = naval_supplies
+            output   = 0.50
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_lumber = {
+            tools = 0.05
+
+            produced = lumber
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_iron = {
+            tools = 0.03
+
+            produced = iron
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_gold = {
+            tools = 0.01
+
+            produced = goods_gold
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_gems = {
+            tools = 0.02
+
+            produced = gems
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_jewelry = {
+            tools = 0.01
+
+            produced = jewelry
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_furniture = {
+            tools = 0.01
+
+            produced = furniture
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_jewelry = {
+            tools = 0.01
+
+            produced = jewelry
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_marble = {
+            tools = 0.01
+
+            produced = marble
+            output = 1
+
+            category = workshop_input
+        }
+
+        deepwater_salvageworks_weaponry = {
+            tools = 0.01
+
+            produced = weaponry
+            output = 1
+
+            category = workshop_input
+        }
+    }
+
+    construction_demand = workshop_construction
+}
