@@ -1,74 +1,74 @@
-fhl_pirate_pens_tamers = {
-    is_foreign = no
-    max_levels = 100
-    pop_type = laborers
-
-    employment_size = tiny_rural_peasant_produce_employment
-
-    rural_settlement = yes
-    town = yes
-    city = yes
-
-    category = rgo_building_category
-
-    build_time = 90
-    
-    modifiers = {
-        nobles_estate_target_satisfaction = small_permanent_target_satisfaction
-    }
-    
-    country_potential = {
-        has_reform = government_reform:pirate_brethren_reform
-        tag = FHL
-        is_ai = no
-    }
-
-    allow = {
-        is_ai = no
-    }
-    
-    unique_production_methods = {
-        fhl_pirate_pens_tamers_horse_maintenance = {
-            produced = horses
-            output = 1
-
-            tools = 0
-
-            category = building_maintenance
-        }
-        fhl_pirate_pens_tamers_elephants_maintenance = {
-            produced = elephants
-            output = 1
-
-            tools = 0
-
-            category = building_maintenance
-        }
-        fhl_pirate_pens_tamers_fur_maintenance = {
-            produced = fur
-            output = 1
-
-            tools = 0
-
-            category = building_maintenance
-        }
-        fhl_pirate_pens_tamers_ivory_maintenance = {
-            produced = ivory
-            output = 1
-
-            tools = 0
-
-            category = building_maintenance
-        }
-        fhl_pirate_pens_tamers_livestock_maintenance = {
-            produced = livestock
-            output = 1
-
-            tools = 0
-
-            category = building_maintenance
-        }
-    }
-
-    construction_demand = basic_construction_needs
-}
+# fhl_pirate_pens_tamers = {
+#     is_foreign = no
+#     max_levels = 100
+#     pop_type = laborers
+#
+#     employment_size = tiny_rural_peasant_produce_employment
+#
+#     rural_settlement = yes
+#     town = yes
+#     city = yes
+#
+#     category = rgo_building_category
+#
+#     build_time = 90
+#    
+#     modifiers = {
+#         nobles_estate_target_satisfaction = small_permanent_target_satisfaction
+#     }
+#    
+#     country_potential = {
+#         has_reform = government_reform:pirate_brethren_reform
+#         tag = FHL
+#         is_ai = no
+#     }
+#
+#     allow = {
+#         is_ai = no
+#     }
+#    
+#     unique_production_methods = {
+#         fhl_pirate_pens_tamers_horse_maintenance = {
+#             produced = horses
+#             output = 1
+#
+#             tools = 0
+#
+#             category = building_maintenance
+#         }
+#         fhl_pirate_pens_tamers_elephants_maintenance = {
+#             produced = elephants
+#             output = 1
+#
+#             tools = 0
+#
+#             category = building_maintenance
+#         }
+#         fhl_pirate_pens_tamers_fur_maintenance = {
+#             produced = fur
+#             output = 1
+#
+#             tools = 0
+#
+#             category = building_maintenance
+#         }
+#         fhl_pirate_pens_tamers_ivory_maintenance = {
+#             produced = ivory
+#             output = 1
+#
+#             tools = 0
+#
+#             category = building_maintenance
+#         }
+#         fhl_pirate_pens_tamers_livestock_maintenance = {
+#             produced = livestock
+#             output = 1
+#
+#             tools = 0
+#
+#             category = building_maintenance
+#         }
+#     }
+#
+#     construction_demand = basic_construction_needs
+# }
