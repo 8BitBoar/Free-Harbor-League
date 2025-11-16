@@ -32,11 +32,11 @@
 #     allow = {
 #         is_core_of = owner
 #     }
-#    
+#
 #     modifier = {
 #         local_unrest = -0.2
 #     }
-#    
+#
 #     capital_country_modifier = {
 #         global_distance_from_capital_cost_modifier = -0.20
 #         global_crown_estate_power = 0.15
@@ -54,7 +54,7 @@
 #             books = 0.25
 #             liquor = 0.1
 #             goods_gold = 0.1
-#            
+#
 #             category = building_maintenance
 #         }
 #     }
@@ -65,7 +65,7 @@
 #         glass = 1
 #         marble = 1
 #         liquor = 0.5
-#        
+#
 #         category = building_construction
 #     }
 # }
