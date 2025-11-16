@@ -1,0 +1,54 @@
+wreckers_yard = {
+    is_foreign = no
+    stronger_power_projection = no
+    max_levels = 1
+    need_good_relation = no
+    pop_type = peasants
+
+    category = consumer_goods_category
+    employment_size = pirate_building_employment
+
+    AI_ignore_available_worker_flag = no
+
+    rural_settlement = yes
+    town = yes
+    city = yes
+    
+    country_potential = {
+        has_reform = government_reform:pirate_brethren_reform
+        tag = FHL
+    }
+
+    location_potential = {
+        is_coastal = yes
+    }
+
+    build_time = pirate_build_time
+
+    allow = {
+        is_core_of = owner
+    }
+
+    unique_production_methods = {
+        wreckers_yard_naval_supplies = {
+            tools    = 0.01
+            
+            produced = naval_supplies
+            output   = 0.50
+            
+            category = workshop_input
+        }
+
+        wreckers_yard_lumber = {
+            tools = 0.03
+
+            produced = lumber
+            output = 1
+            
+            category = workshop_input
+        }
+    }
+
+    construction_demand = workshop_construction
+}
+

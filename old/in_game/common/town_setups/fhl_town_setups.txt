@@ -20,6 +20,7 @@ fhl_pirate_republic_capital = {
     fine_cloth_guild = 1
     weapon_guild = 1
     glass_guild = 1
+    wreckers_yard = 1
     
     # custom
     # temple = 1
