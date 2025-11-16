@@ -11,5 +11,6 @@
         banking = yes
         professional_armies = yes
         # age 3
+        printing_press = yes
     }
 }
