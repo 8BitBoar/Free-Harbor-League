@@ -48,7 +48,7 @@ high_prize_court = {
     }
 
     unique_production_methods = {
-        fhl_high_prize_court_maintenance = {
+        high_prize_court_maintenance = {
             paper = 0.5
             books = 0.25
             liquor = 0.1
