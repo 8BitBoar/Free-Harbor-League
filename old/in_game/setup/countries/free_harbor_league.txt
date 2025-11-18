@@ -17,5 +17,5 @@ FHL = {
 	description_category = military 
 	difficulty = 2
 
-	type = settled
+	type = navy
 }
