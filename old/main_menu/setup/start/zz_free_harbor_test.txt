@@ -34,9 +34,20 @@ countries = {
             include = "fhl_pirate_republic"
             
             discovered_regions = {
+                aridoamerica_region
+                balkan_region
+                canada_region
                 caribbean_region
+                central_america_region
+                colombia_region
+                east_coast_region
                 france_region
+                great_plains_region
+                iberia_region
+                italy_region
+                maghreb_region
                 mesoamerica_region
+                north_atlantic_ocean_region
             }
 
             tolerated_cultures = {
