@@ -116,7 +116,7 @@ fhl_events.1 = {
         save_scope_as = prev_country
         
         set_local_variable = {
-            name = local_var:fhl_plunder_value
+            name = fhl_plunder_value
             value = {
                 value = scope:target_country.monthly_income_trade_and_tax
                 multiply = { 2 4 }
@@ -128,7 +128,7 @@ fhl_events.1 = {
         name = fhl_events.1.a
         
         add_sailors = { -0.3 -0.1 }
-        add_gold = fhl_plunder_value
+        add_gold = local_var:fhl_plunder_value
 
         show_as_tooltip = {
             scope:target_country = {
