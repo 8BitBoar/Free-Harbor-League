@@ -30,12 +30,11 @@ countries = {
             
             # condense exploration stuff
             # include upper tip of South America, maybe pan handle of Florida
-            include = "expl_mesoamerica"
-            include = "expl_east_africa"
             include = "fhl_pirate_republic"
             
             discovered_regions = {
                 caribbean_region
+                mesoamerica_region
             }
 
             tolerated_cultures = {
