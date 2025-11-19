@@ -11,18 +11,24 @@ fhl_events.1 = {
         sailors >= 0.3
         
         OR = {
-            region:caribbean_region = {
+            region:france_region = {
                 any_present_country = {
                     num_of_ports >= 1
-                    "border_distance_to(root)" < 1000
-                }
-            }           
-            region:mesoamerica_region = {
-                any_present_country = {
-                    num_of_ports >= 1
-                    "border_distance_to(root)" < 1000
+                    "border_distance_to(root)" < 2000
                 }
             }
+            # region:caribbean_region = {
+            #     any_present_country = {
+            #         num_of_ports >= 1
+            #         "border_distance_to(root)" < 1000
+            #     }
+            # }           
+            # region:mesoamerica_region = {
+            #     any_present_country = {
+            #         num_of_ports >= 1
+            #         "border_distance_to(root)" < 1000
+            #     }
+            # }
         }
     }
 

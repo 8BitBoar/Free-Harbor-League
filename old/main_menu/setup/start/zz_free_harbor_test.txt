@@ -34,6 +34,7 @@ countries = {
             
             discovered_regions = {
                 caribbean_region
+                france_region
                 mesoamerica_region
             }
 
