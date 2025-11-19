@@ -1,0 +1,3 @@
+INJECT:pirate_elective = {
+    allow_female = yes
+}
