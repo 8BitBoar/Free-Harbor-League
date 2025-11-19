@@ -1,6 +1,7 @@
 countries = {
     countries = {
         FHL = {
+            type = navys
             own_control_core = {
                 abacoa
                 eleuthera
