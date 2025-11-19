@@ -232,17 +232,17 @@ deepwater_salvageworks = {
             liquor = 0.10
 
             produced = goods_gold
-            output = 0.12
+            output = 0.70
 
             category = workshop_input
         }
 
         deepwater_salvageworks_gems = {
             tools = 0.15
-            liquor = 0.10
+            liquor = 0.03
 
             produced = gems
-            output = 0.12
+            output = 0.40
 
             category = workshop_input
         }
@@ -252,7 +252,7 @@ deepwater_salvageworks = {
             liquor = 0.12
 
             produced = jewelry
-            output = 0.10
+            output = 0.30
 
             category = workshop_input
         }
