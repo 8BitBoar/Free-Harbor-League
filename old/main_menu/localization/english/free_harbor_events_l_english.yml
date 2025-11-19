@@ -1,0 +1,9 @@
+﻿l_english:
+  fhl_events.1.title: "Raid on [target_country.GetAdjectiveWithNoTooltip] Ships"
+  fhl_events.1.desc: "As it stands, a flotilla of [target_country.GetAdjective] ships is currently returning home from an overseas mission bearing many goods and riches that we could certainly make better use of. Unlike many trade ships, they are not exactly lightly guarded and we are bound to suffer some casualties. However, the potential gain is well worth the risks involved."
+  fhl_events.1.a: "Signal the fleet. We sail!"
+  fhl_events.1.b: "Stand down. It's not worth the pittance of booty onboard."
+
+  fhl_events.2.title: "Raid on our Fleet!"
+  fhl_events.2.desc: "The bastards [ROOT.GetCountry.Custom('GetWokouName')] of [prev_country.GetName] have launched an attack on our fleets which was in the process of returning from a governmental mission. Though we did give them hell in the process, they were able to capture and loot several ships, costing us much of valuable tonnage."
+  fhl_events.2.a: "Bastards!"
