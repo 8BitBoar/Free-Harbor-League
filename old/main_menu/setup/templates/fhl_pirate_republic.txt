@@ -1,6 +1,6 @@
 starting_technology_level = 3
 government = {
-    ruler = random
+    ruler = fhl_rhaiza_goldluck
     
     type = republic
     heir_selection = pirate_elective
