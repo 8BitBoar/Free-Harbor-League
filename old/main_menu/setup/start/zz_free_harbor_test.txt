@@ -45,6 +45,7 @@ countries = {
                 great_plains_region
                 iberia_region
                 italy_region
+                macaronesia_region
                 maghreb_region
                 mesoamerica_region
                 north_atlantic_ocean_region
