@@ -20,6 +20,7 @@ REPLACE:pirate_brethren_reform = {
         navy_maintenance_cost = -0.33
         court_language_is_common_language_importance_modifier = 5
         government_reform_slots = 2
+        gender_equality = yes
     }
 
     on_activate = {
