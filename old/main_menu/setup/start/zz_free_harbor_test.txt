@@ -3,24 +3,37 @@ countries = {
         FHL = {
             type = navy
             own_control_core = {
+                # The Bahamas
                 abacoa
-                eleuthera
                 bahama
                 lucayoneque
-                sagua
-                baracoa
-                guantanamo
+                eleuthera
+                guanima
+                exuma
+                guanahani
+                jumento
+                utiaquia
+                samana_cay
+                inagua
                 
-                habana 
+                # Turks and Caicos Islands
+                caycos
+                
+                # Cuba
+                
                 # Jamaica
-                maynoa
-                anaya
-                yaguabo
-                guaygata
-                aguacadiba
-                oristan
-
-                guacayakima
+                
+                # Haiti & Dominican Republic
+                
+                # Puerto Rico
+                mona_island
+                vieques_island
+                ayamaco
+                arasibo
+                guaynabo
+                guaynia
+                guama
+                guaraca
             }
 
             currency_data = {
