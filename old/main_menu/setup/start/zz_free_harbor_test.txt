@@ -68,6 +68,41 @@ countries = {
                 maynoa
                 
                 # Haiti & Dominican Republic
+                guacayakima
+                haniguayagua
+                yaguana
+                jaragua
+                baoruco_mountains
+                yaquimo
+                baoruco
+                cayguani
+                neiba_mountains
+                cahay
+                guanabo
+                iguamuco
+                banique
+                maguana
+                azua
+                marien
+                baynoa
+                guahaba
+                tortuga
+                magorix
+                bohio
+                yaqui
+                cibao
+                cordrilla_central
+                jarabacoa
+                cubao
+                moca
+                ciguayo
+                samana
+                cayacoa
+                yamasa
+                boya
+                yuma
+                bavaro
+                cotui
                 
                 # Puerto Rico
                 mona_island

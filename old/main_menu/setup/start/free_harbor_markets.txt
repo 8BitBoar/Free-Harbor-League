@@ -1,3 +1,4 @@
 market_manager = {
-    add_market = habana 		
+    add_market = habana
+    add_market = guaynabo
 }
