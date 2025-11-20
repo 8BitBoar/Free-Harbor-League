@@ -60,6 +60,12 @@ countries = {
                 baracoa
 
                 # Jamaica
+                oristan
+                aguacadiba
+                anaya
+                yaguabo
+                guaygata
+                maynoa
                 
                 # Haiti & Dominican Republic
                 
@@ -74,6 +80,7 @@ countries = {
                 guaraca
                 
                 # Cayman Islands
+                kaiman
             }
 
             currency_data = {
