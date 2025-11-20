@@ -11,96 +11,96 @@ fhl_events.1 = {
         sailors >= 0.3
         
         OR = {
-            # region:aridoamerica_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }              
-            # region:balkan_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:canada_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }
-            # region:caribbean_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:central_america_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:colombia_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }
-            # region:east_coast_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:france_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:great_plains_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:iberia_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:italy_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }
-            # region:macaronesia_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }            
-            # region:maghreb_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }
+            region:aridoamerica_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }              
+            region:balkan_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:canada_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }
+            region:caribbean_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:central_america_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:colombia_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }
+            region:east_coast_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:france_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:great_plains_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:iberia_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:italy_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }
+            region:macaronesia_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }            
+            region:maghreb_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }
             region:mesoamerica_region = {
                 any_present_country = {
                     num_of_ports >= 1
-                    "border_distance_to(root)" < root.naval_range
+                    "border_distance_to(root)" < ROOT.naval_range
                 }
             }            
-            # region:north_atlantic_ocean_region = {
-            #     any_present_country = {
-            #         num_of_ports >= 1
-            #         "border_distance_to(root)" < 5500
-            #     }
-            # }
+            region:north_atlantic_ocean_region = {
+                any_present_country = {
+                    num_of_ports >= 1
+                    "border_distance_to(root)" < ROOT.naval_range
+                }
+            }
         }
     }
 
