@@ -20,6 +20,13 @@ countries = {
                 caycos
                 
                 # Cuba
+                siguanea
+                guanamacabibes
+                guaniguanico
+                marien_cuba
+                habana
+                batanabo
+                guanimar
                 
                 # Jamaica
                 
@@ -34,6 +41,8 @@ countries = {
                 guaynia
                 guama
                 guaraca
+                
+                # Cayman Islands
             }
 
             currency_data = {
