@@ -27,7 +27,38 @@ countries = {
                 habana
                 batanabo
                 guanimar
-                
+                west_sabaneneque
+                macoriges
+                hanabana
+                jagua
+                cubanacan
+                central_sabaneque
+                sabana
+                east_cubanacan
+                magon
+                guamuhaya
+                east_sabaneque
+                ornofay
+                mabuya
+                camaguey
+                guaimaro
+                south_camaguey
+                cueiba
+                cayaguayo
+                lora
+                maguanes
+                bayamo
+                macaca
+                bayaquitiri
+                jiguani
+                mayari
+                bani_cuba
+                barajagua
+                sagua
+                yateras
+                guantanamo
+                baracoa
+
                 # Jamaica
                 
                 # Haiti & Dominican Republic
