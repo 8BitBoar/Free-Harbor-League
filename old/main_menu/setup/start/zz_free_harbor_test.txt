@@ -81,6 +81,9 @@ countries = {
                 guanabo
                 iguamuco
                 banique
+                bani
+                hicayagua
+                samana_cay
                 maguana
                 azua
                 marien
