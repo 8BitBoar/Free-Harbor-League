@@ -1,45 +1,36 @@
 invite_chosen_one_to_court = {
     on_own_nation = yes
     message = no
-    context_menu_click_mode = click
     ai_tick = never
     
     potential = {
-        scope:actor = {
-            tag = FHL
-        }    
     }
-
-    select_trigger = {
-        looking_for = character    
-        source      = actor       
-        target_flag = recipient   
-
-        name = "invite_chosen_one_target"
-        none_available_msg_key = "NO_CHOSEN_ONE_TARGETS"
-
-
-        visible = {
-            is_ruler = yes         
-        }
-
-        enabled = {
-            is_ruler = yes
-            is_alive = yes
-        }
-
-        show_why_not_visible = yes
-        show_why_not_enabled = yes
-    }
-
-
+    
     allow = {
     }
     
+    select_trigger = {
+        looking_for_a =  character
+        source = actor
+        target_flag = reciepient
+        name = "choose_character"
+        column = {
+            data = name
+        }
+        visible = {
+            is_alive = yes
+            is_adult = yes
+        }
+        
+    }
+
     effect = {
         scope:actor = {
-            country_event = { id = fhl_immortal_events.1 }
+            custom_tooltip = "NOBLE_FEMALE"
+            hidden_effect = {
+                fhl_create_female_character_effect = yes
+            }
         }
     }
-    
+
 }

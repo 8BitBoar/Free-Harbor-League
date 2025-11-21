@@ -1,0 +1,20 @@
+fhl_create_female_character_effect = {
+    create_character = {
+        religion = scope:recipient.religion
+        culture = scope:recipient.culture
+        age = 20
+        female = yes
+        adm = 100
+        dip = 100
+        mil = 100
+        fertility = 100
+        create_dynasty_from_location = random
+        random_estate_type_trigger = {
+            this = estate_type:nobles_estate
+            NOR = {
+                this = estate_type:clergy_estate
+                this = estate_type:dhimmi_estate
+            }
+        }
+    }
+}
