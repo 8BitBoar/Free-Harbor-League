@@ -1,3 +1,87 @@
-INJECT:pirate_elective = {
+REPLACE:pirate_elective = {
     allow_female = yes
+    use_election = yes
+    term_duration = 0	#0 = until ruler death
+    max_possible_candidates = 3
+
+    allowed_estates = { nobles_estate burghers_estate peasants_estate }
+    heir_is_allowed = {
+    }
+    potential = {
+        has_reform = government_reform:pirate_brethren_reform
+    }
+
+    locked = {
+        has_reform = government_reform:pirate_brethren_reform
+    }
+    calc = {
+        if = {
+            limit = {
+                exists = root
+            }
+            add = {
+                desc = "HEIR_SELECTION_DIP_DESC"
+                value = root.dip
+            }
+            add = {
+                desc = "HEIR_SELECTION_MIL_DESC"
+                value = root.mil
+            }
+            add = {
+                desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+                value = character_age
+            }
+            if = {
+                limit = {
+                    is_admiral = yes
+                }
+                desc = "HEIR_SELECTION_ADMIRAL_DESC"
+                value = 100
+            }
+            if = {
+                limit = {
+                    has_trait_category = admiral
+                }
+                desc = "HEIR_SELECTION_ADMIRAL_TRAIT_DESC"
+                value = 100
+            }            
+            if = {
+                limit = {
+                    has_character_modifier = fhl_fleet_spirit
+                }
+                desc = "HEIR_SELECTION_FLEET_SPIRIT_DESC"
+                value = 1000
+            }
+            if = {
+                limit = { modifier:blocked_from_being_ruler = yes }
+                add = {
+                    desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+                    value = -1000
+                }
+            }
+        }
+
+        # Here it goes the description for explaining
+        if = {
+            limit = {
+                not = { exists = root }
+            }
+            add = {
+                desc = "HEIR_SELECTION_DIP_DESC"
+                value = 1
+            }
+            add = {
+                desc = "HEIR_SELECTION_MIL_DESC"
+                value = 1
+            }
+            add = {
+                desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+                value = 1
+            }
+            add = {
+                desc = "HEIR_SELECTION_ADMIRAL_DESC"
+                value = 100
+            }
+        }
+    }
 }

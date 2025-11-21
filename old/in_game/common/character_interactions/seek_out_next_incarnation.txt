@@ -1,4 +1,4 @@
-invite_chosen_one_to_court = {
+seek_out_next_incarnation = {
     on_own_nation = yes
     message = no
     ai_tick = never
@@ -12,7 +12,7 @@ invite_chosen_one_to_court = {
     select_trigger = {
         looking_for_a =  character
         source = actor
-        target_flag = reciepient
+        target_flag = recipient
         name = "choose_character"
         column = {
             data = name
@@ -26,9 +26,9 @@ invite_chosen_one_to_court = {
 
     effect = {
         scope:actor = {
-            custom_tooltip = "NOBLE_FEMALE"
+            custom_tooltip = "SPIRT_OF_THE_FLEET"
             hidden_effect = {
-                fhl_create_female_character_effect = yes
+                fhl_create_fleet_spirit = yes
             }
         }
     }

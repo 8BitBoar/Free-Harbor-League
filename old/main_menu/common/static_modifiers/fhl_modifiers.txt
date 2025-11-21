@@ -1,0 +1,6 @@
+fhl_fleet_spirit = {
+    game_data = {
+        category = character
+    }
+
+}

@@ -1,5 +1,6 @@
-fhl_create_female_character_effect = {
+fhl_create_fleet_spirit = {
     create_character = {
+        save_scope_as = new_spirit
         religion = scope:recipient.religion
         culture = scope:recipient.culture
         age = 20
@@ -9,12 +10,14 @@ fhl_create_female_character_effect = {
         mil = 100
         fertility = 100
         create_dynasty_from_location = random
-        random_estate_type_trigger = {
-            this = estate_type:nobles_estate
-            NOR = {
-                this = estate_type:clergy_estate
-                this = estate_type:dhimmi_estate
-            }
+        estate = estate_type:burghers_estate
+    }
+
+
+    scope:new_spirit = {
+        add_character_modifier = {
+            modifier = fhl_fleet_spirit
+            days = -1
         }
     }
 }
