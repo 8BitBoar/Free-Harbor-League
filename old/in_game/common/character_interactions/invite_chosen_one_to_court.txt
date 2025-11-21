@@ -42,9 +42,6 @@ invite_chosen_one_to_court = {
             admiral_trait = buccaneer
             general_trait = strategist
             child_trait = gifted
-            
-            tag = FHL
-            fertility = 100
         }
     }
     
