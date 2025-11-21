@@ -9,7 +9,30 @@ invite_chosen_one_to_court = {
             tag = FHL
         }    
     }
-    
+
+    select_trigger = {
+        looking_for = character    
+        source      = actor       
+        target_flag = recipient   
+
+        name = "invite_chosen_one_target"
+        none_available_msg_key = "NO_CHOSEN_ONE_TARGETS"
+
+
+        visible = {
+            is_ruler = yes         
+        }
+
+        enabled = {
+            is_ruler = yes
+            is_alive = yes
+        }
+
+        show_why_not_visible = yes
+        show_why_not_enabled = yes
+    }
+
+
     allow = {
     }
     
