@@ -1,0 +1,44 @@
+namespace = fhl_immortal_events
+
+fhl_immortal_events.1 = {
+    type = country_event
+    title = fhl_immortal_events.1.title
+    desc = fhl_immortal_events.1.desc 
+    
+    trigger = {
+        always = yes
+    }
+
+    immediate = {
+        create_character = {
+            
+            first_name = name_rhaiza
+            last_name = name_goldluck
+            female = yes
+
+            culture = scope:root.ruler.culture
+            religion = scope:root.ruler.religion
+
+            age = { 30 40 }
+            estate = estate_type:burghers_estate
+
+            adm = 100
+            dip = 100
+            mil = 100
+
+            birth_location = scope:root.capital
+
+            add_trait = trait:well_advised
+            add_trait = trait:tactical_genius
+            add_trait = trait:buccaneer
+            add_trait = trait:strategist
+            add_trait = trait:gifted
+        }
+    }
+
+    option = {
+        name = fhl_immortal_events.1.a
+    }
+
+
+}
