@@ -1,0 +1,51 @@
+invite_chosen_one_to_court = {
+    on_own_nation = yes
+    message = no
+    context_menu_click_mode = click
+    ai_tick = never
+    
+    potential = {
+        scope:actor = {
+            tag = FHL
+        }    
+    }
+    
+    allow = {
+        scope:recipient = {
+            is_ruler = yes
+            is_alive = yes
+        }
+        
+        scope:actor = {
+            NOT = { has_country_flag = koa_has_immortal_candidate }
+        }
+    }
+    
+    effect = {
+        scope:actor = {
+            first_name = name_rhaiza
+            last_name = name_goldluck
+            culture = scope:recipient.culture
+            religion = scope:recipient.religion
+            female = scope:recipient.is_female
+            
+            age = { 30 40 }
+            estate = estate_type:burghers_estate
+
+            adm = 100
+            dip = 100
+            mil = 100
+
+            birth_location = scope:target.capital
+            ruler_trait = well_advised
+            ruler_trait = tactical_genius
+            admiral_trait = buccaneer
+            general_trait = strategist
+            child_trait = gifted
+            
+            tag = FHL
+            fertility = 100
+        }
+    }
+    
+}
