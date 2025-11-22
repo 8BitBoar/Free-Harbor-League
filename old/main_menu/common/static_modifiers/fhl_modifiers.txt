@@ -3,4 +3,8 @@ fhl_fleet_spirit = {
         category = character
     }
 
+    modifier = {
+        monthly_legitimacy = 0.5
+        monthly_republican_tradition = 0.5
+    }
 }
