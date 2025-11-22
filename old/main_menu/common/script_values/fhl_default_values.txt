@@ -1,0 +1,11 @@
+# residential buildings employment
+fhl_residental_employment_low = 0.05
+fhl_residental_employment_medium = 0.10
+fhl_residental_employment_high = 0.20
+
+# residential buildings levels
+fhl_special_residential = 3
+
+# estate satsifaction
+medium_permanent_target_satisfaction = 0.05
+

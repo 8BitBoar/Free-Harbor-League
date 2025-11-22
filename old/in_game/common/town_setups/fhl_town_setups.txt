@@ -1,11 +1,12 @@
 fhl_pirate_republic_capital = {
-    granary = 1
+    granary = 2
     distillers_guild = 2
     naval_supplies_guild = 1
     pirate_stronghold = 1
     pirate_tavern = 1
     wharf = 1
-    mason = 1
+    mason = 4
+    safe_anchorage_quarter = 1
     tools_guild = 1
     admiralty_of_the_captains = 1
     high_prize_court = 1
