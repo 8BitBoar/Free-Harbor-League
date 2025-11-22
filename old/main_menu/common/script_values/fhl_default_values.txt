@@ -1,6 +1,6 @@
 # residential buildings employment
-fhl_residental_employment_low = 0.05
-fhl_residental_employment_medium = 0.10
+fhl_residental_employment_low = 0.10
+fhl_residental_employment_medium = 0.15
 fhl_residental_employment_high = 0.20
 
 # residential buildings levels
@@ -9,3 +9,12 @@ fhl_special_residential = 3
 # estate satsifaction
 medium_permanent_target_satisfaction = 0.05
 
+# burgher workforce
+fhl_burgher_employment_low = 0.05
+fhl_burgher_employment_medium = 0.10
+fhl_burgher_employment_high = 0.20
+
+# peasant workforce
+fhl_peasant_employment_low = 0.10
+fhl_peasant_employment_medium = 0.30
+fhl_peasant_employment_high = 0.60

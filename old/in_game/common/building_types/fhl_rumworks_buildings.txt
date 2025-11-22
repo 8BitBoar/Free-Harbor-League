@@ -1,0 +1,90 @@
+# rumworks
+corsair_rumworks = {
+    is_foreign = no
+    stronger_power_projection = no
+    max_levels = 5
+    need_good_relation = no
+    pop_type = burghers
+
+    category = consumer_goods_category
+    employment_size = fhl_burgher_employment_high
+
+    AI_ignore_available_worker_flag = no
+
+    rural_settlement = no
+    town = yes
+    city = yes
+    
+    country_potential = {
+        has_reform = government_reform:pirate_brethren_reform
+        tag = FHL
+    }
+
+    build_time = guild_build_time
+
+    allow = {
+        is_core_of = owner
+    }
+    
+    modifier = {
+        global_crown_estate_power = 0.10
+        burghers_estate_target_satisfaction = 0.15
+        clergy_estate_target_satisfaction = 0.05
+        peasants_estate_target_satisfaction = 0.10
+        nobles_estate_target_satisfaction = 0.10
+        global_estate_satisfaction_recovery = 0.01
+        monthly_towards_naval = societal_value_monthly_move
+        local_sailors = 0.02
+    }
+
+    unique_production_methods = {
+        corsair_rumworks_maize_still = {
+            maize    = 2.0
+            glass   = 0.40
+
+            produced = liquor
+            output   = 6
+
+            category = workshop_input
+        }        
+        corsair_rumworks_potato_still = {
+            potato    = 3.75
+            glass   = 0.40
+
+            produced = liquor
+            output   = 6
+
+            category = workshop_input
+        }        
+        corsair_rumworks_rice_still = {
+            rice    = 3.5
+            glass   = 0.40
+
+            produced = liquor
+            output   = 6
+
+            category = workshop_input
+        }        
+        corsair_rumworks_sugar_still = {
+            sugar    = 1.5
+            glass   = 0.40
+
+            produced = liquor
+            output   = 6
+
+            category = workshop_input
+        }
+        corsair_rumworks_wheat_still = {
+            wheat    = 3.75
+            glass   = 0.40
+
+            produced = liquor
+            output   = 6
+
+            category = workshop_input
+        }
+    }
+
+    construction_demand = guild_construction
+}
+

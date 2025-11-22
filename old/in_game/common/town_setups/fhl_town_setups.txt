@@ -11,6 +11,7 @@ fhl_pirate_republic_capital = {
     admiralty_of_the_captains = 1
     high_prize_court = 1
     paper_guild = 1
+    corsair_rumworks = 1
     scriptorium = 1
     dyes_guild = 1
     cloth_guild = 1
