@@ -27,6 +27,10 @@ corsair_rumworks = {
     }
     
     modifier = {
+        local_sailors = 0.02
+    }
+
+    capital_country_modifier = {
         global_crown_estate_power = 0.10
         burghers_estate_target_satisfaction = 0.15
         clergy_estate_target_satisfaction = 0.05
@@ -34,7 +38,6 @@ corsair_rumworks = {
         nobles_estate_target_satisfaction = 0.10
         global_estate_satisfaction_recovery = 0.01
         monthly_towards_naval = societal_value_monthly_move
-        local_sailors = 0.02
     }
 
     unique_production_methods = {
