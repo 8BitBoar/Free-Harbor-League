@@ -20,5 +20,11 @@ character_db = {
         tag = FHL
         estate = burghers_estate
         fertility = 100
+        timed_modifier = {
+            modifier = "fhl_fleet_spirit"
+            start_date = 1000.1.1
+            date = 9999.1.1
+            size = 1
+        }
     }
 }
