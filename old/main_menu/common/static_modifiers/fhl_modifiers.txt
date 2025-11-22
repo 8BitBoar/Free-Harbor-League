@@ -18,6 +18,8 @@ fhl_fleet_spirit = {
         privateer_durability = 0.05
         peace_offer_negotiation_power = 0.75
         merchant_maintenance_cost = -0.025
-        
+        monthly_towards_naval = societal_value_monthly_move
+
+
     }
 }
