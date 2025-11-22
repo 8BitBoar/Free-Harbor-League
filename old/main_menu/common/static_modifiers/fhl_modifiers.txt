@@ -4,7 +4,20 @@ fhl_fleet_spirit = {
     }
 
     modifier = {
-        monthly_legitimacy = 0.5
         monthly_republican_tradition = 0.5
+        global_estate_target_satisfaction = 0.025
+        burghers_estate_target_satisfaction = 0.05
+        navy_maintenance_cost = -0.05
+        tax_income_efficiency = 0.05
+        monthly_gold_income = 30
+        monthly_prestige = 0.50
+        character_life_expectancy = 50
+        global_monthly_prosperity = 0.50
+        ship_capture_chance = 0.25
+        navy_movement_speed = 0.05
+        privateer_durability = 0.05
+        peace_offer_negotiation_power = 0.75
+        merchant_maintenance_cost = -0.025
+        
     }
 }
