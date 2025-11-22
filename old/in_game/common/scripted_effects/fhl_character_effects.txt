@@ -10,6 +10,10 @@ fhl_create_fleet_spirit = {
         mil = 100
         fertility = 100
         create_dynasty_from_location = random
+        add_trait = trait:well_advised
+        add_trait = trait:tactical_genius
+        add_trait = trait:buccaneer
+        add_trait = trait:strategist
         estate = estate_type:burghers_estate
     }
 

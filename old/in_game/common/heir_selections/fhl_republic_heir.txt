@@ -79,6 +79,10 @@ REPLACE:pirate_elective = {
                 value = 1
             }
             add = {
+                desc = "HEIR_SELECTION_FLEET_SPIRIT_DESC"
+                value = 1000
+            }
+            add = {
                 desc = "HEIR_SELECTION_ADMIRAL_DESC"
                 value = 100
             }
