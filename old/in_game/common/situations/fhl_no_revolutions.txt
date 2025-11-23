@@ -21,7 +21,7 @@ REPLACE:the_revolution = {
 
 	on_start = {
 		ordered_revolutionary = {
-			# no my tag selected
+			# no FHL tag selected
 			limit = {                   
 				NOT = { tag = FHL }        
 			}
@@ -33,6 +33,8 @@ REPLACE:the_revolution = {
 		}
 		every_country = {
 			limit = {
+				# no FHL tag selected
+				NOT = { tag = FHL }
 				NOR = {
 					is_subject_or_below_of = revolutionary_target
 					revolutionary_target ?= { is_subject_or_below_of = prev }
@@ -53,7 +55,10 @@ REPLACE:the_revolution = {
 
 	on_monthly = {
 		ordered_great_power = {
-			limit = { is_revolutionary = yes }   
+			limit = {
+				is_revolutionary = yes
+				NOT = { tag = FHL }        
+			}
 			order_by = great_power_score
 			max = 1 
 			check_range_bounds = no
