@@ -12,6 +12,11 @@ fhl_smugglers_road = {
     on_start = {
         c:FHL = {
             trigger_event_non_silently = fhl_smugglers_road.777
+            add_country_modifier = {
+                modifier = smugglers_road_start
+                years = -1
+                desc = smugglers_road_start_dsec
+            }
         }
     }
     
@@ -22,6 +27,11 @@ fhl_smugglers_road = {
     on_ended = {
         c:FHL = {
             trigger_event_non_silently = fhl_smugglers_road_end.778
+            remove_country_modifier = smugglers_road_start
+            add_country_modifier = {
+                name = fhl_smugglers_road_completed
+                duration = -1
+            }
         }
     } 
 
