@@ -17,3 +17,20 @@ fhl_smugglers_road.777 = {
         custom_tooltip = situation_fhlsr_start_tt
     }
 }
+
+# Event for end of the situation
+fhl_smugglers_road_end.778 = {
+    type = country_event
+    category = situation_event
+
+    title = fhl_smugglers_road.778.title
+    desc = fhl_smugglers_road.778.desc
+    # will be lore
+    image = "gfx/interface/illustrations/situation/golden_age_of_piracy.dds"
+
+    option = {
+        name = fhl_smugglers_road.778.a
+
+        custom_tooltip = situation_fhlsr_start_tt
+    }
+}

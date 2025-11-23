@@ -10,15 +10,6 @@ fhl_smugglers_road = {
     }
     
     on_start = {
-        # every_country = {
-        #     limit = {
-        #         country_type = navy
-        #         has_reform = government_reform:pirate_brethren_reform
-        #         tag = FHL
-        #     }
-        #
-        #     trigger_event_non_silently = fhl_smugglers_road.777
-        # }
         c:FHL = {
             trigger_event_non_silently = fhl_smugglers_road.777
         }
@@ -28,7 +19,11 @@ fhl_smugglers_road = {
     on_monthly = {}
     
     # grants modifier, removes initial situation modifier
-    on_ended = {} black
+    on_ended = {
+        c:FHL = {
+            trigger_event_non_silently = fhl_smugglers_road_end.778
+        }
+    } 
 
     map_color = {
         if = {
