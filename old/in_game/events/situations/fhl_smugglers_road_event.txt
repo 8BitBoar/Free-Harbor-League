@@ -34,3 +34,135 @@ fhl_smugglers_road_end.778 = {
         custom_tooltip = situation_fhlsr_start_tt
     }
 }
+
+# Event for surprise volunteers
+fhl_smugglers_road.101 = {
+    type = country_event
+    category = situation_event   # or country_event, doesn’t actually matter for logic
+
+    title = fhl_smugglers_road.101.title
+    desc  = fhl_smugglers_road.101.desc
+    image = "gfx/interface/illustrations/situation/golden_age_of_piracy.dds"
+
+    trigger = {
+        tag = FHL
+        has_country_modifier = fhl_smugglers_road_start
+    }
+
+    mean_time_to_happen = { months = 48 }
+
+    immediate = {
+        # 1) Pick a Smuggler's Road location that FHL owns
+        random_ownable_location = {
+            limit = {
+                OR = {
+                    location_key = ukutal
+                    location_key = koa_road_2
+                    # etc…
+                }
+                is_owned_or_owned_by_subjects_or_below_of = c:FHL
+            }
+
+            save_scope_as = target_location
+        }
+
+        # 2) In the capital, pick a reference pop (largest, or largest Corsair)
+        capital = {
+            ordered_pop = {
+                # optional: uncomment if you want only Corsair pops as base
+                # limit = { culture = culture:corsair }
+
+                order_by = pop_size
+                check_range_bounds = no
+                max = 1
+                save_scope_as = target_pop_base
+            }
+        }
+    }
+
+
+    option = {
+        name = fhl_smugglers_road.101.a   # "Volunteers for the Road"
+
+        scope:target_location = {
+            add_pop = {
+                culture  = culture:corsair
+                religion = scope:root.state_religion
+                type     = pop_type:laborers
+
+                size = {
+                    add      = scope:target_pop_base.pop_size
+                    multiply = 0.20      # maybe lower than 0.10 since capitals can be big
+                    min      = 1.0
+                }
+            }
+        }
+    }
+
+}
+
+# Event for surprise volunteers
+fhl_smugglers_road.101 = {
+    type = country_event
+    category = situation_event   # or country_event, doesn’t actually matter for logic
+
+    title = fhl_smugglers_road.101.title
+    desc  = fhl_smugglers_road.101.desc
+    image = "gfx/interface/illustrations/situation/golden_age_of_piracy.dds"
+
+    trigger = {
+        tag = FHL
+        has_country_modifier = fhl_smugglers_road_start
+    }
+
+    mean_time_to_happen = { months = 48 }
+
+    immediate = {
+        # 1) Pick a Smuggler's Road location that FHL owns
+        random_ownable_location = {
+            limit = {
+                OR = {
+                    location_key = ukutal
+                    location_key = koa_road_2
+                    # etc…
+                }
+                is_owned_or_owned_by_subjects_or_below_of = c:FHL
+            }
+
+            save_scope_as = target_location
+        }
+
+        # 2) In the capital, pick a reference pop (largest, or largest Corsair)
+        capital = {
+            ordered_pop = {
+                # optional: uncomment if you want only Corsair pops as base
+                # limit = { culture = culture:corsair }
+
+                order_by = pop_size
+                check_range_bounds = no
+                max = 1
+                save_scope_as = target_pop_base
+            }
+        }
+    }
+
+
+    option = {
+        name = fhl_smugglers_road.101.a   # "Volunteers for the Road"
+
+        scope:target_location = {
+            add_pop = {
+                culture  = culture:corsair
+                religion = scope:root.state_religion
+                type     = pop_type:laborers
+
+                size = {
+                    add      = scope:target_pop_base.pop_size
+                    multiply = 0.20      # maybe lower than 0.10 since capitals can be big
+                    min      = 1.0
+                }
+            }
+        }
+    }
+
+}

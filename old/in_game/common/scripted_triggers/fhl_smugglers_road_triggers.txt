@@ -29,22 +29,6 @@ fhl_smugglers_road_start_trigger = {
                     location_key = cubiga
                     location_key = chepo
                     location_key = chuchures
-                    
-                    # nekokiaw area
-                    ## nekokiaw area
-                    location_key = orosi
-                    location_key = bocto
-                    location_key = nekokiaw
-                    location_key = garabito
-                    location_key = uxarraci
-                    ## boruca prov
-                    location_key = coctu
-                    location_key = boruca
-                    location_key = quepos
-                    location_key = pacaca
-                    location_key = burica
-                    location_key = chiriqui
-                    location_key = huista
                 }
             }
         }
@@ -53,6 +37,24 @@ fhl_smugglers_road_start_trigger = {
 
 fhl_smugglers_road_end_trigger = {
     country_exists = c:FHL
+
+    OR = {
+        # 3-tile path
+        region:central_america_region = {
+            any_ownable_location_in_region = {
+                filter = {
+                    OR = {
+                        location_key = ukutal
+                        location_key = koa_road_2
+                        location_key = koa_road_3
+                    }
+                }
+                count = all
+                is_owned_or_owned_by_subjects_or_below_of = c:FHL
+                is_core_of = c:FHL
+            }
+        }
+    }
     
     region:central_america_region = {
         any_ownable_location_in_region = {
@@ -82,29 +84,10 @@ fhl_smugglers_road_end_trigger = {
                     location_key = cubiga
                     location_key = chepo
                     location_key = chuchures
-
-                    # nekokiaw area
-                    ## nekokiaw area
-                    location_key = orosi
-                    location_key = bocto
-                    location_key = nekokiaw
-                    location_key = garabito
-                    location_key = uxarraci
-                    ## boruca prov
-                    location_key = coctu
-                    location_key = boruca
-                    location_key = quepos
-                    location_key = pacaca
-                    location_key = burica
-                    location_key = chiriqui
-                    location_key = huista
                 }
             }
 
-            count = all
-            
-            is_owned_or_owned_by_subjects_or_below_of = c:FHL
-            is_core_of = c:FHL
+
         }
     }
 }
