@@ -5,9 +5,46 @@ fhl_smugglers_road_start_trigger = {
         any_owned_location = {
             filter = {
                 OR = {
-                    location_key = ukutal
-                    location_key = sico
-                    # location keys here
+                    # panama area
+                    ## tariaca prov
+                    location_key = veragua
+                    location_key = caribaro
+                    location_key = terbi
+                    location_key = dererri
+                    location_key = tariaca
+                    location_key = kabeka
+                    ## parita prov
+                    location_key = tauraba
+                    location_key = parita
+                    location_key = nata
+                    location_key = escoria
+                    location_key = chiru
+                    location_key = esquegua
+                    ## panama prov
+                    location_key = panama
+                    location_key = careta
+                    location_key = pocorosa
+                    location_key = comogre
+                    location_key = chochama
+                    location_key = cubiga
+                    location_key = chepo
+                    location_key = chuchures
+                    
+                    # nekokiaw area
+                    ## nekokiaw area
+                    location_key = orosi
+                    location_key = bocto
+                    location_key = nekokiaw
+                    location_key = garabito
+                    location_key = uxarraci
+                    ## boruca prov
+                    location_key = coctu
+                    location_key = boruca
+                    location_key = quepos
+                    location_key = pacaca
+                    location_key = burica
+                    location_key = chiriqui
+                    location_key = huista
                 }
             }
         }
@@ -21,9 +58,46 @@ fhl_smugglers_road_end_trigger = {
         any_ownable_location_in_region = {
             filter = {
                 OR = {
-                    location_key = ukutal                    
-                    location_key = sico
-                    # location keys here
+                    # panama area
+                    ## tariaca prov
+                    location_key = veragua
+                    location_key = caribaro
+                    location_key = terbi
+                    location_key = dererri
+                    location_key = tariaca
+                    location_key = kabeka
+                    ## parita prov
+                    location_key = tauraba
+                    location_key = parita
+                    location_key = nata
+                    location_key = escoria
+                    location_key = chiru
+                    location_key = esquegua
+                    ## panama prov
+                    location_key = panama
+                    location_key = careta
+                    location_key = pocorosa
+                    location_key = comogre
+                    location_key = chochama
+                    location_key = cubiga
+                    location_key = chepo
+                    location_key = chuchures
+
+                    # nekokiaw area
+                    ## nekokiaw area
+                    location_key = orosi
+                    location_key = bocto
+                    location_key = nekokiaw
+                    location_key = garabito
+                    location_key = uxarraci
+                    ## boruca prov
+                    location_key = coctu
+                    location_key = boruca
+                    location_key = quepos
+                    location_key = pacaca
+                    location_key = burica
+                    location_key = chiriqui
+                    location_key = huista
                 }
             }
 
