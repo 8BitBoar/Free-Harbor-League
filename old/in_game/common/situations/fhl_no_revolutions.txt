@@ -57,6 +57,7 @@ REPLACE:the_revolution = {
 		ordered_great_power = {
 			limit = {
 				is_revolutionary = yes
+				# no FHL tag selected
 				NOT = { tag = FHL }        
 			}
 			order_by = great_power_score
