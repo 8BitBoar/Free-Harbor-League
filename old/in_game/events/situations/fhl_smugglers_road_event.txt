@@ -1,0 +1,19 @@
+namespace = fhl_smugglers_road
+
+# Event for start of the situation
+fhl_smugglers_road.777 = {	
+    type = country_event
+    category = situation_event
+
+    title = fhl_smugglers_road.777.title
+    desc = fhl_smugglers_road.777.desc
+    # will be lore
+    historical_info = fhl_smugglers_road.777.historical_info
+    image = "gfx/interface/illustrations/situation/golden_age_of_piracy.dds"
+
+    option = {
+        name = fhl_smugglers_road.777.a
+
+        custom_tooltip = situation_fhlsr_start_tt
+    }
+}

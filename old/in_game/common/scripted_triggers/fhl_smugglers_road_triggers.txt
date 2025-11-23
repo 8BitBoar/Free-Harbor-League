@@ -1,0 +1,36 @@
+fhl_smugglers_road_start_trigger = {
+    country_exists = c:FHL
+    
+    c:FHL = {
+        any_owned_location = {
+            filter = {
+                OR = {
+                    location_key = ukutal
+                    location_key = sico
+                    # location keys here
+                }
+            }
+        }
+    }
+}
+
+fhl_smugglers_road_end_trigger = {
+    country_exists = c:FHL
+    
+    region:central_america_region = {
+        any_ownable_location_in_region = {
+            filter = {
+                OR = {
+                    location_key = ukutal                    
+                    location_key = sico
+                    # location keys here
+                }
+            }
+
+            count = all
+            
+            is_owned_or_owned_by_subjects_or_below_of = c:FHL
+            is_core_of = c:FHL
+        }
+    }
+}
