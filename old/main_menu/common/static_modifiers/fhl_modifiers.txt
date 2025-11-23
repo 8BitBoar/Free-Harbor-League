@@ -7,6 +7,7 @@ fhl_fleet_spirit = {
         monthly_republican_tradition = 0.5
         global_estate_target_satisfaction = 0.025
         burghers_estate_target_satisfaction = 0.05
+        global_merchant_capacity_modifier = 0.50
         navy_maintenance_cost = -0.05
         tax_income_efficiency = 0.05
         monthly_gold_income = 30
@@ -21,5 +22,36 @@ fhl_fleet_spirit = {
         monthly_towards_naval = societal_value_monthly_move
 
 
+    }
+}
+
+smugglers_road_start = {
+    game_data = {
+        category = country
+    }
+
+    modifier = {
+        colonial_migration_size_modifier = 0.35
+        colonial_migration_size = 10
+        colonial_maintenance_cost = -0.15
+        exploration_mission_speed = 0.10
+        trade_range = 200
+        colonial_range = 2000
+    }
+}
+
+fhl_smugglers_road_completed = {
+    game_data = {
+        category = country
+    }
+
+    modifier = {
+        global_sailors_modifier = 0.20
+        naval_damage_done = 0.05
+        monthly_prestige = 0.1
+        exploration_mission_speed = 0.15
+        monthly_republican_tradition = 1
+        trade_range = 2000
+        colonial_range = 200
     }
 }
