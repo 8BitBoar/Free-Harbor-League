@@ -1,0 +1,54 @@
+INJECT:cultural_traditions_law = {
+    free_tide_tradtion = {
+        unique = yes
+        
+        potential = {
+            has_reform = government_reform:pirate_brethren_reform
+            tag = FHL
+        }
+        
+        country_modifier = {
+            monthly_towards_naval = societal_value_monthly_move
+            monthly_towards_humanist = societal_value_minor_monthly_move
+
+            global_merchant_power = 0.05
+            global_estate_target_satisfaction = 0.01
+
+            cultures_capacity = 2
+            
+        }
+        estate_preferences = {
+            burghers_estate
+            peasants_estate
+        }
+        years = 3
+    }
+}
+
+INJECT:foreign_cultural_law = {
+    league_of_every_tongue = {
+        unique = yes
+        
+        potential = {
+            has_reform = government_reform:pirate_brethren_reform
+            tag = FHL
+        }
+        
+        country_modifier = {
+            cultures_capacity = 4
+            add_accepted_culture_cost_modifier = -0.50
+
+            global_pop_assimilation_speed_modifier = 0.50
+            cultural_influence_modifier = 0.25
+
+            global_estate_target_satisfaction = 0.05
+        }
+        
+        estate_preferences = {
+            burghers_estate
+            peasants_estate
+        }
+        
+        years = 3
+    }
+}
